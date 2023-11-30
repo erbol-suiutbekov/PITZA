@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+body {
+  font-family: sans-serif;
+}
+
+#header {
+  background: white;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head1 {
+  display: flex;
+}
+.qq {
+  display: flex;
+}
+.ww {
+  display: flex;
+  margin-top: 15px;
+}
+.head5 {
+  margin-left: 71px;
+}
+.head3 {
+  display: flex;
+  gap: 30px;
+}
+.head3 div {
+  width: 49px;
+  height: 49px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.r {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+.t {
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 12px;
+}
+.y {
+  position: absolute;
+  margin-left: 170px;
+  margin-top: 12px;
+}
+.u {
+  position: absolute;
+  margin-left: 248px;
+  margin-top: 12px;
+}
+.hero {
+  padding: 120px 0 0 0;
+}
+.herrooo {
+  display: flex;
+  padding: 30px 0 0 40px;
+  justify-content: space-between;
+}
+.one {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 200px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.one h1 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 88.4%;
+  letter-spacing: 1.6px;
+}
+
+.one img {
+  padding: 0 0 0 27px;
+}
+
+.one1 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 200px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.one1 h1 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 88.4%;
+  letter-spacing: 1.6px;
+}
+
+.one1 img {
+  padding: 0 0 0 27px;
+}
+.one2 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 200px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.one2 h1 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 88.4%;
+  letter-spacing: 1.6px;
+}
+
+.one2 img {
+  padding: 0 0 0 27px;
+}
+.one3 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 210px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.one3 h1 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 88.4%;
+  letter-spacing: 1.6px;
+}
+
+.one3 img {
+  padding: 0 0 0 27px;
+}
+.one4 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 220px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.one4 h1 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 88.4%;
+  letter-spacing: 1.6px;
+}
+
+.one4 img {
+  padding: 0 0 0 27px;
+}
+.tabs input {
+  display: none;
+}
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+.tabs label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 141px;
+  height: 33px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.tabs label:hover {
+  background: rgba(255, 166, 0, 0.421);
+}
+#Пицца:checked ~ .Пицца {
+  background: orange;
+  color: white;
+}
+#Суши:checked ~ .Суши {
+  background: orange;
+  color: white;
+}
+#Комбо:checked ~ .Комбо {
+  background: orange;
+  color: white;
+}
+#Десерты:checked ~ .Десерты {
+  background: orange;
+  color: white;
+}
+#Закуски:checked ~ .Закуски {
+  background: orange;
+  color: white;
+}
+#Все:checked ~ .Все {
+  background: orange;
+  color: white;
+}
+.pizza-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 0 0 0 80px;
+}
+.pizza-content1 {
+  padding: 88px 0 50px 0;
+}
+.pizza-content2 {
+  width: 230px;
+  height: 288px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
+
+  position: relative;
+  padding: 0 0 50px 16px;
+  margin-top: 50px;
+}
+.pizza-content2 h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  /* margin-top: -70px; */
+  margin-top: -20px;
+  padding: 0 0 20px 0;
+}
+.pizza-content2 p {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Roboto;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  max-width: 159px;
+  height: 44px;
+  /* margin-top: 15px; */
+  /* margin-top: 20px;  */
+}
+.pizza-content2 h2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  /* margin-top: 10px; */
+  margin-top: 26px;
+}
+.m {
+  position: absolute;
+  margin-left: px;
+  margin-top: -24px;
+}
+.n {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: -17px;
+}
+.b {
+  position: absolute;
+  margin-top: -29px;
+  margin-left: 150px;
+}
+.v {
+  position: absolute;
+  margin-left: 159px;
+  margin-top: -11px;
+}
+.c {
+  margin-left: 170px;
+  margin-top: 147px;
+}
+.x {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -15px;
+}
+.z {
+  position: absolute;
+  margin-left: 120px;
+  margin-top: -25px;
+}
+.l {
+  position: absolute;
+  margin-left: 128px;
+  margin-top: -16px;
+}
+.viv {
+  position: absolute;
+  margin-left: 160px;
+  margin-top: -25px;
+}
+.viv2 {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 164px;
+}
+#Все:checked ~ .veffaaa,
+#Все:checked ~ .veffaaa2,
+#Все:checked ~ .veffaaa3,
+#Все:checked ~ .veffaaa4,
+#Все:checked ~ .veffaaa5 {
+}
+
+#Пицца:checked ~ .veffaaa2,
+#Пицца:checked ~ .veffaaa3,
+#Пицца:checked ~ .veffaaa4,
+#Пицца:checked ~ .veffaaa5 {
+  display: none;
+}
+#Суши:checked ~ .veffaaa,
+#Суши:checked ~ .veffaaa2,
+#Суши:checked ~ .veffaaa3,
+#Суши:checked ~ .veffaaa5 {
+  display: none;
+}
+#Комбо:checked ~ .veffaaa,
+#Комбо:checked ~ .veffaaa3,
+#Комбо:checked ~ .veffaaa4,
+#Комбо:checked ~ .veffaaa5 {
+  display: none;
+}
+#Десерты:checked ~ .veffaaa,
+#Десерты:checked ~ .veffaaa2,
+#Десерты:checked ~ .veffaaa3,
+#Десерты:checked ~ .veffaaa4 {
+  display: none;
+}
+#Закуски:checked ~ .veffaaa,
+#Закуски:checked ~ .veffaaa2,
+#Закуски:checked ~ .veffaaa4,
+#Закуски:checked ~ .veffaaa5 {
+  display: none;
+}
+.tabs button {
+  width: 213px;
+  height: 41px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fa963a;
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88.4%; /* 13.26px */
+  letter-spacing: 1.2px;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+.footer {
+  width: 1200px;
+  height: 294px;
+  flex-shrink: 0;
+  background: #fa963a;
+  margin-top: 140px;
+}
+.footer1 {
+  padding: 50px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.foot2 {
+  display: flex;
+  gap: 60px;
+}
+
+.yu {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: -45.5px;
+}
+.yuo {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: -45.5px;
+}
+.yuor {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: -46px;
+}
+.yuore {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: -41px;
+}
+.footer1 h1 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+}
+.footer1 p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.qqqqq {
+  margin-top: 30px;
+  margin-left: 70px;
+  width: 1050px;
+  height: 3px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #c4c4c4;
+}
+.ggg {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 70px;
+  margin-top: 60px;
+}
